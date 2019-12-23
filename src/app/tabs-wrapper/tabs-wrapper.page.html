@@ -1,0 +1,13 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title>Awesome App</ion-title>
+    <ion-buttons slot="primary">
+      <ion-button (click)="logout()" router-direction="root">
+        <ion-icon slot="icon-only" name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-router-outlet id="content" main></ion-router-outlet>

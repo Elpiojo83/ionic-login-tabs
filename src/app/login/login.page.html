@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login to Awesome App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-label>Email</ion-label>
+        <ion-input placeholder="Email" type="email"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Password</ion-label>
+
+        <ion-input placeholder="Password" type="password"></ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-button (click)="login()"  expand="block">
+    Login
+  </ion-button>
+</ion-content>
